@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B2C1FBC1D4CEED100A9F82B /* NoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C1FBB1D4CEED100A9F82B /* NoViewController.swift */; };
+		5B2C1FBE1D4CEF6700A9F82B /* NoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C1FBD1D4CEF6700A9F82B /* NoTableViewCell.swift */; };
 		8BD2DA691D3235AE00AFEF44 /* TriLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD2DA681D3235AE00AFEF44 /* TriLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BD2DA701D3235AE00AFEF44 /* TriLabelView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD2DA651D3235AE00AFEF44 /* TriLabelView.framework */; };
 		8BD2DA751D3235AE00AFEF44 /* TriLabelViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2DA741D3235AE00AFEF44 /* TriLabelViewTests.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B2C1FBB1D4CEED100A9F82B /* NoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoViewController.swift; sourceTree = "<group>"; };
+		5B2C1FBD1D4CEF6700A9F82B /* NoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoTableViewCell.swift; sourceTree = "<group>"; };
 		8BD2DA651D3235AE00AFEF44 /* TriLabelView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TriLabelView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD2DA681D3235AE00AFEF44 /* TriLabelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriLabelView.h; sourceTree = "<group>"; };
 		8BD2DA6A1D3235AE00AFEF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				8BD2DA8E1D3293F800AFEF44 /* Assets.xcassets */,
 				8BD2DA901D3293F800AFEF44 /* LaunchScreen.storyboard */,
 				8BD2DA931D3293F800AFEF44 /* Info.plist */,
+				5B2C1FBB1D4CEED100A9F82B /* NoViewController.swift */,
+				5B2C1FBD1D4CEF6700A9F82B /* NoTableViewCell.swift */,
 			);
 			path = "Demo-iOS";
 			sourceTree = "<group>";
@@ -338,7 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2C1FBE1D4CEF6700A9F82B /* NoTableViewCell.swift in Sources */,
 				8BD2DA8A1D3293F800AFEF44 /* ViewController.swift in Sources */,
+				5B2C1FBC1D4CEED100A9F82B /* NoViewController.swift in Sources */,
 				8BD2DA881D3293F800AFEF44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

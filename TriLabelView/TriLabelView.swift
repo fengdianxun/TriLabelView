@@ -41,7 +41,7 @@ import Foundation
     
     @IBInspectable public var labelText:String = "Hi" {
         didSet {
-            setNeedsDisplay()
+//            setNeedsDisplay()
         }
     }
     
@@ -117,7 +117,7 @@ import Foundation
     }
     
     private func addSecondLabelView() {
-        clearChildViews()
+//        clearChildViews()
         let (x, y, labelAngle,textWidth,textHeight) = getLabelPostion(frame.width)
         let firstLabel = UILabel()
         firstLabel.frame = CGRectMake(x, y, textWidth, textHeight)
